@@ -1,0 +1,21 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "apache@latest": {
+      "last_modified": "2023-05-25T03:54:59Z",
+      "plugin_version": "0.0.2",
+      "resolved": "github:NixOS/nixpkgs/8d4d822bc0efa9de6eddc79cb0d82897a9baa750#apacheHttpd",
+      "version": "2.4.57"
+    },
+    "apacheHttpdPackages.mod_perl@latest": {
+      "last_modified": "2023-05-25T03:54:59Z",
+      "resolved": "github:NixOS/nixpkgs/8d4d822bc0efa9de6eddc79cb0d82897a9baa750#apacheHttpdPackages.mod_perl",
+      "version": "2.0.12"
+    },
+    "perl@latest": {
+      "last_modified": "2023-05-25T03:54:59Z",
+      "resolved": "github:NixOS/nixpkgs/8d4d822bc0efa9de6eddc79cb0d82897a9baa750#perl",
+      "version": "5.36.0"
+    }
+  }
+}

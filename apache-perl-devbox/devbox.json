@@ -1,0 +1,22 @@
+{
+  "packages": [
+    "apacheHttpdPackages.mod_perl@latest",
+    "apache@latest",
+    "perl@latest"
+  ],
+  "env": {
+    "APACHE_MOD_DIR": "$PWD/.devbox/virtenv/.wrappers/modules",
+    "HTTPD_DOC_ROOT": "$PWD/public",
+    "PERL5LIB": "$PWD/.devbox/virtenv/.wrappers/lib/perl5/site_perl"
+  },
+  "shell": {
+    "init_hook": [
+      "echo 'Welcome to devbox!' > /dev/null"
+    ],
+    "scripts": {
+      "test": [
+        "echo \"Error: no test specified\" && exit 1"
+      ]
+    }
+  }
+}

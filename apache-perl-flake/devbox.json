@@ -1,0 +1,14 @@
+{
+  "packages": [
+    "path:apache-perl#apache"
+  ],
+  "env": {
+    "HTTPD_DOC_ROOT": "$PWD/public"
+  },
+  "shell": {
+    "init_hook": []
+  },
+  "include": [
+    "plugin:apache"
+  ]
+}
